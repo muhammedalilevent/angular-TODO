@@ -1,0 +1,39 @@
+
+.main-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    
+    font-size: 25px;
+    align-self: center;
+}
+.input-area{
+    display: flex;
+    flex-direction: row;
+    
+    align-self: center;
+    
+}
+.list-area{
+    height: 85%;
+    width: 300px;
+    background-color: mediumorchid;
+}
+
+.add-button{
+    background-color: gray;
+}
+#input{
+    height: 25px;
+}
+.main-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
